@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4177EBA21CD35FDC00A8C727 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4177EBA11CD35FDC00A8C727 /* main.cpp */; };
+		4177EBA51CD3601C00A8C727 /* SpectralClustering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4177EBA31CD3601C00A8C727 /* SpectralClustering.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41910DA51CC767FC005387C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4177EBA11CD35FDC00A8C727 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		4177EBA31CD3601C00A8C727 /* SpectralClustering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpectralClustering.cpp; path = src/SpectralClustering.cpp; sourceTree = SOURCE_ROOT; };
+		4177EBA41CD3601C00A8C727 /* SpectralClustering.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SpectralClustering.hpp; path = src/SpectralClustering.hpp; sourceTree = SOURCE_ROOT; };
+		41910DA71CC767FC005387C5 /* spectralclustering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spectralclustering; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41910DA41CC767FC005387C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41910D9E1CC767FC005387C5 = {
+			isa = PBXGroup;
+			children = (
+				41910DA91CC767FC005387C5 /* src */,
+				41910DA81CC767FC005387C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41910DA81CC767FC005387C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41910DA71CC767FC005387C5 /* spectralclustering */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41910DA91CC767FC005387C5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4177EBA11CD35FDC00A8C727 /* main.cpp */,
+				4177EBA31CD3601C00A8C727 /* SpectralClustering.cpp */,
+				4177EBA41CD3601C00A8C727 /* SpectralClustering.hpp */,
+			);
+			name = src;
+			path = livecoding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41910DA61CC767FC005387C5 /* spectralclustering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41910DAE1CC767FC005387C5 /* Build configuration list for PBXNativeTarget "spectralclustering" */;
+			buildPhases = (
+				41910DA31CC767FC005387C5 /* Sources */,
+				41910DA41CC767FC005387C5 /* Frameworks */,
+				41910DA51CC767FC005387C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spectralclustering;
+			productName = livecoding;
+			productReference = 41910DA71CC767FC005387C5 /* spectralclustering */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41910D9F1CC767FC005387C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = shugo;
+				TargetAttributes = {
+					41910DA61CC767FC005387C5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 41910DA21CC767FC005387C5 /* Build configuration list for PBXProject "spectralclustering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41910D9E1CC767FC005387C5;
+			productRefGroup = 41910DA81CC767FC005387C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41910DA61CC767FC005387C5 /* spectralclustering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41910DA31CC767FC005387C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4177EBA21CD35FDC00A8C727 /* main.cpp in Sources */,
+				4177EBA51CD3601C00A8C727 /* SpectralClustering.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41910DAC1CC767FC005387C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41910DAD1CC767FC005387C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41910DAF1CC767FC005387C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				PRODUCT_NAME = spectralclustering;
+			};
+			name = Debug;
+		};
+		41910DB01CC767FC005387C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include/eigen3;
+				PRODUCT_NAME = spectralclustering;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41910DA21CC767FC005387C5 /* Build configuration list for PBXProject "spectralclustering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41910DAC1CC767FC005387C5 /* Debug */,
+				41910DAD1CC767FC005387C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41910DAE1CC767FC005387C5 /* Build configuration list for PBXNativeTarget "spectralclustering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41910DAF1CC767FC005387C5 /* Debug */,
+				41910DB01CC767FC005387C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41910D9F1CC767FC005387C5 /* Project object */;
+}
